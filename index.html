@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Phạm Quốc Việt</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ======= HEADER ======= -->
+   <header class="navbar">
+    <div class="logo" id="logo">Phạm Quốc Việt</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#hero" class="nav-item">Giới thiệu</a>
+      <a href="#about" class="nav-item">About me</a>
+      <a href="#portfolio" class="nav-item">Dự án</a>
+      <a href="#contact" class="nav-item">Liên hệ</a>
+    </nav>
+    <div class="burger" id="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+  <!-- ======= HERO ======= -->
+  <section id="hero" class="hero">
+    <img src="images/images_1.png" alt="Avatar" class="avatar" />
+    <h1>Xin chào, mình là <span>Phạm Quốc Việt</span></h1>
+    <p class="subheadline">Network Administrator</p>
+    <a href="#portfolio" class="btn">Bấm vào xem dự án tui làm nè!!!</a>
+  </section>
+
+  <!-- ======= ABOUT ======= -->
+  <section id="about" class="about">
+    <h2>About me</h2>
+    <p>Hello mọi người, mình tên là Phạm Quốc Việt mình sinh năm 2002, Đồng Nai là nơi mình sinh ra và lớn lên, hiện tại thì 
+      mình đang sinh sống và làm việc tại TP.HCM. Trang web này được mình tạo ra nhân lúc rảnh rỗi không có việc gì làm hehe!!! 
+    Mình không học chuyên về phần mềm nên có vài thứ còn chưa hoàn hảo lắm 😁 </p><br></br>
+    <p>Mình là một người đam mê công nghệ, thích tìm tòi về các đồ dùng công nghệ như Smartphone, Computer, Laptop, ... 
+      và đó là lý do mình chọn học chuyên ngành Truyền thông dữ liệu và Mạng máy tính thay vì Kỹ thuật phần mềm như bao người khác, 
+      và hiện tại công việc của mình là Network Engineer. Trong quá trình học tập thì mình được trau dồi nhiều kỹ năng, 
+      nhưng 3 kỹ năng cơ bản nhất và quan trọng nhất cần phải có là:</p>
+    <div class="skills">
+      <div><strong>Quản trị hệ thống mạng</strong> <div class="bar"><div style="width:90%"></div></div></div>
+      <div><strong>Devops</strong> <div class="bar"><div style="width:80%"></div></div></div>
+      <div><strong>IT Helpdesk</strong> <div class="bar"><div style="width:70%"></div></div></div>
+    </div>
+  </section>
+
+  <!-- ======= PORTFOLIO ======= -->
+  <section id="portfolio" class="portfolio">
+    <h2>Dự án nổi bật</h2>
+    <div class="grid">
+      <div class="project-card">
+        <div class="project-img">
+          <img src="images/Microsoftazure.png" alt="Project 1" />
+        </div>
+        <h3>Dự án 1</h3>
+        <p>Triển khai hệ thống ứng dụng trên Microsoft Azure.</p>
+        <a href="project1.html" class="btn-detail">Xem chi tiết</a>
+      </div>
+      <div class="project-card">
+        <div class="project-img">
+          <img src="images/VoIP.png" alt="Project 2" />
+        </div>
+        <h3>Dự án 2</h3>
+        <p>Xây dựng hệ thống VoIP cho doanh nghiệp.</p>
+        <a href="project2.html" class="btn-detail">Xem chi tiết</a>
+      </div>
+      <div class="project-card">
+        <div class="project-img">
+          <img src="images/Hacker.png" alt="Project 3" />
+        </div>
+        <h3>Dự án 3</h3>
+        <p>Project đánh cắp thông tin người dùng.</p>
+        <a href="project3.html" class="btn-detail">Xem chi tiết</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CONTACT ======= -->
+  <section id="contact" class="contact">
+    <h2>Liên hệ</h2>
+    <form action="https://docs.google.com/forms/d/19EYYG_OhtjTCoIPUYERQ-aIr69Jp-ojau1Ioh0I9sww/formResponse" method="POST" target="_self">
+      <input type="text" name="entry.732564852" placeholder="Tên của bạn" required>
+      <input type="email" name="entry.1432969976" placeholder="Email" required>
+      <textarea name="entry.152489814" placeholder="Tin nhắn..." required></textarea>
+      <button type="submit">Gửi</button>
+    </form>
+
+    <div class="info">
+      <p>📧 Email: phamquocviet11052002@gmail.com</p>
+      <p>📍 TP. Hồ Chí Minh</p>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer>
+    <div class="socials">
+      <a href="https://www.facebook.com/quooc.zieec" target="_blank" class="social-icon">
+        <img src="images/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/quooc_zieec/" target="_blank" class="social-icon">
+        <img src="images/instagram.png" alt="Instagram">
+      </a>
+      <a href="#" id="showEmail" class="social-icon">
+        <img src="images/email.png" alt="Email">
+      </a>
+      <a href="#" id="showPhone" class="social-icon">
+        <img src="images/phone.png" alt="Phone">
+      </a>
+  </div>
+    <p>© 2025 QUOOCZIEEC | All rights reserved.</p>
+  </footer>
+    <!-- Popup hiển thị thông tin -->
+  <div id="infoPopup" class="popup">
+    <div class="popup-content">
+      <p id="infoText"></p>
+      <button id="closeInfo">Đóng</button>
+    </div>
+  </div>
+  <!--Gửi thông tin về google form-->
+  <script>
+    const form = document.querySelector("form");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        mode: "no-cors"
+      }).then(() => {
+        alert("✅ Gửi thành công! Cảm ơn bạn đã liên hệ.");
+        form.reset();
+      }).catch((error) => {
+        alert("❌ Lỗi gửi form, vui lòng thử lại!");
+        console.error(error);
+      });
+    });
+  </script>
+  <script>
+    const infoPopup = document.getElementById("infoPopup");
+    const infoText = document.getElementById("infoText");
+    const closeInfo = document.getElementById("closeInfo");
+
+    document.getElementById("showEmail").addEventListener("click", (e) => {
+      e.preventDefault();
+      infoText.innerHTML = "📧 Email của tôi: <b>phamquocviet11052002@gmail.com</b>";
+      infoPopup.style.display = "flex";
+    });
+
+    document.getElementById("showPhone").addEventListener("click", (e) => {
+      e.preventDefault();
+      infoText.innerHTML = "📞 Số điện thoại: <b>0342 868 98</b>";
+      infoPopup.style.display = "flex";
+    });
+
+    closeInfo.addEventListener("click", () => {
+      infoPopup.style.display = "none";
+    });
+
+    window.addEventListener("click", (e) => {
+      if (e.target === infoPopup) infoPopup.style.display = "none";
+    });
+</script>
+</body>
+</html>
